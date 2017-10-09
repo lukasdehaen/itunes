@@ -1,0 +1,33 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+}
+
+.highlightslist {
+    margin-bottom: 40px;
+}
+.highlightsimg {
+    margin-bottom: 15px;
+}
+.header {
+    width: 100%;
+}
+
+#titles {
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.songlength {
+    margin-top: 10px; 
+}
+
+body {
+    background-color: #F7F7F7
+}
+
+#pinkcover {
+    box-shadow: 0px 6px 30px #F9A7F9;
+}

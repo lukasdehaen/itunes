@@ -1,0 +1,26 @@
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    margin-top: -7px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+h5, p {
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    margin-top: -7px;
+    color: #827A99;
+}
