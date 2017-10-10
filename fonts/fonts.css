@@ -1,4 +1,4 @@
-h2 {
+h2, h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: bold;
@@ -23,4 +23,21 @@ h5, p {
     font-size: 12px;
     margin-top: -7px;
     color: #827A99;
+}
+
+strong, b {
+    font-weight: bold;
+    color: black;
+}
+
+b {
+    color: #827A99;
+}
+
+h6, h7 {
+    color: white;
+}
+
+h7 {
+    margin-top: -7px;
 }
