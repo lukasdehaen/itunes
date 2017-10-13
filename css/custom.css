@@ -9,7 +9,6 @@ a {
 ul {
   list-style-type: none;
 }
-
 .highlightslist {
     margin-bottom: 40px;
 }
@@ -23,6 +22,50 @@ ul {
 .mainheader {
     width: 100%;
 }
+
+.mainheaderdt {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+   .mainheader{
+     display: none;
+   }
+ .header{
+     display: none;
+   }
+   .basket {
+       display: none;
+   }
+   .titletext{
+       display: none;
+   }
+   .titletext2{
+       display: none;
+   }
+   .titletext3{
+       display: none;
+   }
+   #mobile-only {
+       display: none;
+   }
+   .mainheaderdt{
+     display: block;
+   }
+
+}
+@media (max-width: 991px) {
+   .mainheader{
+     display: block;
+   }
+
+   .mainheaderdt{
+     display: none;
+   }
+   .desktop-only{
+       display: none;
+   }
+}
 .header {
     width: 100%;
     margin-top: 25px;
@@ -31,12 +74,62 @@ ul {
 .footer {
     width: 100%;
     margin-top: -35px;
-    
 }
+.footerdt {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+   .footer{
+     display: none;
+   }
+
+   .footerdt{
+     display: block;
+   }
+}
+@media (max-width: 991px) {
+   .footer{
+     display: block;
+   }
+
+   .footerdt{
+     display: none;
+   }
+}
+
 #titles {
     margin-top: 5px;
     margin-bottom: 35px;
+    text-align: center;
 }
+#titlesdt {
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    text-align: left;
+   
+}
+@media (min-width: 992px) {
+   #titles{
+     display: none;
+   }
+
+   #titlesdt{
+     display: block;
+   }
+}
+@media (max-width: 991px) {
+   #titles{
+     display: block;
+   }
+
+   #titlesdt{
+     display: none;
+   }
+}
+
 .songlength {
     margin-top: 10px; 
     
@@ -92,6 +185,17 @@ body {
     padding-right: 15px;
 
 }
+.songlistdt {
+    width: 100%;
+    height: 1000px;
+    overflow-y: auto;
+    overflow-x: none;
+    max-width: 100%;
+    max-height: 400px; 
+    padding-right: 15px;
+}
+
+}
 
 .titletext {
     position: absolute;
@@ -125,4 +229,24 @@ body {
     transform: translate (-50%, -50%);
      box-shadow: 0px 6px 30px #B9C2EF;
     border-radius: 50%;
+}
+.basketdt {
+    position: absolute;
+    top: 19%;
+    left: 44%;
+    transform: translate (-50%, -50%);
+     box-shadow: 0px 6px 30px #B9C2EF;
+    border-radius: 50%;
+}
+
+#descriptiondt, #descriptiondt2 {
+    margin-left: 100px;
+    margin-top: -200px; 
+}
+#discs {
+    margin-left: 75px;
+}
+.desktopsegment {
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
