@@ -65,6 +65,9 @@ ul {
    .desktop-only{
        display: none;
    }
+   #myCarousel{
+       display:none;
+   }
 }
 .header {
     width: 100%;
@@ -88,6 +91,9 @@ ul {
    .footerdt{
      display: block;
    }
+   #myCarousel{
+       display: block;
+   }
 }
 @media (max-width: 991px) {
    .footer{
@@ -105,9 +111,9 @@ ul {
     text-align: center;
 }
 #titlesdt {
-    margin-top: 5px;
+    margin-top:75px;
     margin-left: 50px;
-    margin-bottom: 35px;
+    margin-bottom: 150px;
     text-align: left;
    
 }
@@ -128,11 +134,19 @@ ul {
    #titlesdt{
      display: none;
    }
+   #carouselExampleControls{
+       display: none;
+   }
 }
 
 .songlength {
     margin-top: 10px; 
+    margin-left: -30px;
     
+}
+.songlengthm {
+    margin-top: 10px; 
+    margin-left: -40px;
 }
 
 body {
@@ -194,9 +208,6 @@ body {
     max-height: 400px; 
     padding-right: 15px;
 }
-
-}
-
 .titletext {
     position: absolute;
     top: 36%;
@@ -249,4 +260,20 @@ body {
 .desktopsegment {
     margin-top: 100px;
     margin-bottom: 150px;
+}
+.carousel-inner{
+    border-radius: 25px;
+}
+.carousel-caption{
+   text-shadow: 0px 5px 7px #000;
+}
+.carousel-caption {
+    top: 20px;
+    bottom: auto;
+    left: 50px;
+    right: auto;
+    text-align: left;
+}
+#carouselExampleControls {
+    margin-bottom: 75px;
 }
