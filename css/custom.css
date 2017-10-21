@@ -27,54 +27,6 @@ ul {
     width: 100%;
 }
 
-@media (min-width: 992px) {
-   .mainheader{
-     display: none;
-   }
- .header{
-     display: none;
-   }
-   .basket {
-       display: none;
-   }
-   .titletext{
-       display: none;
-   }
-   .titletext2{
-       display: none;
-   }
-   .titletext3{
-       display: none;
-   }
-   #mobile-only {
-       display: none;
-   }
-   .mainheaderdt{
-     display: block;
-   }
-   #carouselExampleControls{
-       display: block;
-   }
-
-}
-@media (max-width: 991px) {
-   .mainheader{
-     display: block;
-   }
-
-   .mainheaderdt{
-     display: none;
-   }
-   .desktop-only{
-       display: none;
-   }
-   #myCarousel{
-       display:none;
-   }
-   #carouselExampleControls{
-       display:none;
-   }
-}
 .header {
     width: 100%;
     margin-top: 25px;
@@ -88,29 +40,6 @@ ul {
     width: 100%;
     margin-top: 20px;
 }
-
-@media (min-width: 992px) {
-   .footer{
-     display: none;
-   }
-
-   .footerdt{
-     display: block;
-   }
-   #myCarousel{
-       display: block;
-   }
-}
-@media (max-width: 991px) {
-   .footer{
-     display: block;
-   }
-
-   .footerdt{
-     display: none;
-   }
-}
-
 #titles {
     margin-top: 5px;
     margin-bottom: 35px;
@@ -121,28 +50,6 @@ ul {
     margin-left: 50px;
     margin-bottom: 150px;
     text-align: left;
-   
-}
-@media (min-width: 992px) {
-   #titles{
-     display: none;
-   }
-
-   #titlesdt{
-     display: block;
-   }
-}
-@media (max-width: 991px) {
-   #titles{
-     display: block;
-   }
-
-   #titlesdt{
-     display: none;
-   }
-   #carouselExampleControls{
-       display: none;
-   }
 }
 body {
     background-color: #F7F7F7
@@ -271,4 +178,92 @@ body {
 }
 #carouselExampleControls {
     margin-bottom: 75px;
+}
+
+@media (min-width: 992px) {
+   .footer{
+     display: none;
+   }
+
+   .footerdt{
+     display: block;
+   }
+   #myCarousel{
+       display: block;
+   }
+.mainheader{
+     display: none;
+   }
+ .header{
+     display: none;
+   }
+   .basket {
+       display: none;
+   }
+   .titletext{
+       display: none;
+   }
+   .titletext2{
+       display: none;
+   }
+   .titletext3{
+       display: none;
+   }
+   #mobile-only {
+       display: none;
+   }
+   .mainheaderdt{
+     display: block;
+   }
+   #carouselExampleControls{
+       display: block;
+   }
+      #titles{
+     display: none;
+   }
+
+   #titlesdt{
+     display: block;
+   }
+   td {
+    height: 50px;
+    }
+}
+@media (max-width: 991px) {
+   .footer{
+     display: block;
+   }
+
+   .footerdt{
+     display: none;
+   }
+   .mainheader{
+     display: block;
+   }
+
+   .mainheaderdt{
+     display: none;
+   }
+   .desktop-only{
+       display: none;
+   }
+   #myCarousel{
+       display:none;
+   }
+   #carouselExampleControls{
+       display:none;
+   }
+   #titles{
+     display: block;
+   }
+
+   #titlesdt{
+     display: none;
+   }
+   #carouselExampleControls{
+       display: none;
+   }
+   td {
+    height: 35px;
+    }
 }
